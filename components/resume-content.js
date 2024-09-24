@@ -72,17 +72,22 @@ const resumecontent = () => {
 
     <div className='md:pt-10'>
         <h2 className='md:text-[22px] md:font-extrabold'>Tools</h2>
-        <div className='md:pt-4 md:grid md:grid-cols-4 md:gap-6 '>
+        <div className='md:pt-4 md:flex-col md:space-y-6'>
 
-
+<div className='md:flex md:justify-start md:gap-4 md:items-center'>
             <Figma />
             <Gaillio />
             <Wix />
             <Chatgpt />
+
+</div>
+<div className='md:flex md:justify-start md:gap-4 md:items-center'>
+
             <Xd />
             <Ps />
             <Ai />
             <Id />
+</div>
 
         </div>
     </div>

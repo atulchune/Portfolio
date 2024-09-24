@@ -2,7 +2,6 @@ import React from 'react'
 
 const id = () => {
   return (
-    <div>
       <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg" href="http://www.w3.org/1999/xlink">
 <rect y="0.125488" width="40" height="40" rx="5" fill="url(#pattern0_111_192)"/>
 <defs>
@@ -13,7 +12,7 @@ const id = () => {
 </defs>
 </svg>
 
-    </div>
+    
   )
 }
 

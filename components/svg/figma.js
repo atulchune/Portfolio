@@ -2,7 +2,6 @@ import React from 'react'
 
 const figma = () => {
   return (
-    <div>
       <svg width="22" height="35" viewBox="0 0 22 35" fill="none" xmlns="http://www.w3.org/2000/svg" href="http://www.w3.org/1999/xlink">
 <rect y="0.625488" width="22" height="34" fill="url(#pattern0_111_184)"/>
 <defs>
@@ -14,7 +13,6 @@ const figma = () => {
 </svg>
 
 
-    </div>
   )
 }
 
