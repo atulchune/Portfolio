@@ -2,26 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+
+
+/* styles/global.css */
+.video-container {
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  overflow: hidden;
+  margin: 20px;
+  z-index: -1; /* Puts the video behind other content */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.background-video {
+  position: absolute;
+  /* border-top-left-radius: radius 50px; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* height: 100%; */
+  /* width:fit-content; */
+  /* min-width: 100%;/
+  min-height: 100%; */
+  /* transform: translate(-50%, -50%); */
+  /* object-fit: cover;  */
+  z-index: -1;
+  
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+#scroll-down-animation {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+.scrollDown {  position: absolute;  bottom: 6%;  left: 50%;  transform: translate(-50%, -50%);}
+.scrollDown span {  display: block;  width: 20px;  height: 20px;  border-bottom: 2px solid  white;  border-right: 2px solid  white ;  transform: rotate(45deg);  margin: -10px;  animation: scrollDownAnimation 2s infinite;}
+.scrollDown span:nth-child(2) {  animation-delay: -0.2s;}
+.scrollDown span:nth-child(3) {  animation-delay: -0.4s;}
+@keyframes scrollDownAnimation {  0% {    opacity: 0;    transform: rotate(45deg) translate(-20px, -20px);  }  50% {    opacity: 1;  }  100% {    opacity: 0;    transform: rotate(45deg) translate(20px, 20px);  }}
+#scroll-down-animation {  position: absolute;  bottom: 0%;  left: 50%;  transform: translate(-50%, -50%);}
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.rotate-30 {
+  transform: rotate(30deg);
 }
