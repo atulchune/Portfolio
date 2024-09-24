@@ -40,7 +40,7 @@ const resumecontent = () => {
     <div>
         <h2 className=' md:text-[21.52px] md:font-extrabold md:font-montserrat md:pt-10'>Portfolio</h2>
         <div className='md:flex md:gap-2 md:items-center'>
-            <Link href={'/'} className='md:underline'>www.behance.net/ankitkumar728</Link>
+            <Link href={'/'} className='md:underline' target='_blank'>www.behance.net/ankitkumar728</Link>
         </div>
     </div>
 
@@ -114,19 +114,19 @@ const resumecontent = () => {
         <h1 className='md:text-[25px] md:font-extrabold'>Projects & Achievements</h1>
         <div className='md:py-3'>
 
-            <h2 className='md:text-xs md:font-semibold md:underline'><Link href={'https://www.misso.ai/'}>MISSO Robotic System Website:</Link></h2>
+            <h2 className='md:text-xs md:font-semibold md:underline'><Link href={'https://www.misso.ai/'} target='_blank'>MISSO Robotic System Website:</Link></h2>
             <p className='md:text-[10px] md:font-normal'>Designed an innovative and visually compelling website for Meril's new medical robot, boosting product inquiries by within the first month of launch.</p>
         </div>
         <div className='md:pb-3'>
-            <h2 className='md:text-xs md:font-semibold md:underline'><Link href={'/notfound'}>Cardiac Surgery Tracking App:</Link></h2>
+            <h2 className='md:text-xs md:font-semibold md:underline'><Link href={'/notfound'} target='_blank'>Cardiac Surgery Tracking App:</Link></h2>
             <p className='md:text-[10px] md:font-normal'>Successfully designed an engaging and user-friendly app that will track all the details of the surgery which will help patient and doctor to track patient’s progress.</p>
         </div>
         <div className='md:pb-3'>
-            <h2 className='md:text-xs md:font-semibold md:underline'><Link href={'https://www.merillife.com/landing/freedom-knee/'}>Freedom Knee Landing Page:</Link></h2>
+            <h2 className='md:text-xs md:font-semibold md:underline'><Link href={'https://www.merillife.com/landing/freedom-knee/'} target='_blank'>Freedom Knee Landing Page:</Link></h2>
             <p className='md:text-[10px] md:font-normal'>Redesigned the landing page for the Freedom Knee, resulting in increase in user engagement and improved product awareness.</p>
         </div>
         <div className=''>
-            <h2 className='md:text-xs md:font-semibold md:underline'><Link href={'/notfound'}>EuroPCR Website:</Link></h2>
+            <h2 className='md:text-xs md:font-semibold md:underline'><Link href={'/notfound'} target='_blank'>EuroPCR Website:</Link></h2>
             <p className='md:text-[10px] md:font-normal'>Successfully designed an engaging and user-friendly event website happened in France that increased user interaction and enhanced the overall attendee experience.</p>
         </div>
     </div>
@@ -135,8 +135,8 @@ const resumecontent = () => {
 
     <div className='md:gap-3'>
         <h1 className='md:text-[22px] md:font-extrabold '>Certifications</h1>
-        <p className='md: text-xs md:font-normal md:underline md:py-1'><Link href='https://www.coursera.org/account/accomplishments/professional-cert/UVDE5DSCN376'><span className='md:text-xs md:font-semibold'>Google</span> UX Design Professional Certificate</Link></p>
-        <p className='md: text-xs md:font-normal md:underline  md:pb-6'><Link href='https://www.udemy.com/certificate/UC-2ca2de70-429d-4a80-98d7-ba87551e9acd/'><span className='md:text-xs md:font-semibold'> Udemy</span>Graphic Design Certificate</Link></p>
+        <p className='md: text-xs md:font-normal md:underline md:py-1'><Link href='https://www.coursera.org/account/accomplishments/professional-cert/UVDE5DSCN376' target='_blank'><span className='md:text-xs md:font-semibold'>Google</span> UX Design Professional Certificate</Link></p>
+        <p className='md: text-xs md:font-normal md:underline  md:pb-6'><Link href='https://www.udemy.com/certificate/UC-2ca2de70-429d-4a80-98d7-ba87551e9acd/'target='_blank'><span className='md:text-xs md:font-semibold'> Udemy</span>Graphic Design Certificate</Link></p>
 
         <h1 className='md:text-[22px] md:font-extrabold '>Skills</h1>
         <ul className='md:gap-2 md:text-[10px] md:font-normal md:px-4 md:list-disc'>
