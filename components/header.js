@@ -1,6 +1,6 @@
 import React from 'react'
 
-const header = () => {
+const Header = () => {
     return (
         <div className='absolute w-full'>
             <header className='md:flex md:justify-between md:px-2 md:items-center'>
@@ -24,4 +24,4 @@ const header = () => {
     )
 }
 
-export default header
+export default Header

@@ -2,6 +2,8 @@ import Image from "next/image";
 import Header from "@/components/header";
 import About from "@/components/about"
 import Resume from "@/components/resume";
+import Project from '@/components/projects';
+import Footer from "@/components/footer";
 export default function Home() {
   return (
     <div className="overflow-hidden">
@@ -59,6 +61,8 @@ export default function Home() {
 
       <About />
       <Resume />
+      <Project/>
+      <Footer/>
     </div>
   );
 }

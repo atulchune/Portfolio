@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-const about = () => {
+const About = () => {
     return (
         <div className='w-full h-screen md:relative scroll-smooth md:mt-6' id='about  md:overflow-x-hidden'>
             <div className=' h-1/5 '>
@@ -85,4 +85,4 @@ const about = () => {
     )
 }
 
-export default about
+export default About

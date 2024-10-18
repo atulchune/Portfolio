@@ -2,16 +2,16 @@ import React from 'react'
 import Image from 'next/image'
 
 import ResumeContent from './resume-content'
-const resume = () => {
+const Resume = () => {
     return (
-        <div className='md:p-[70px] md:w-full md:text-white md:md:font-montserrat '>
+        <div className='md:p-[70px] md:w-full md:text-white md:font-montserrat '>
             <div className='md:bg-[#1e1f1d] md:rounded-3xl md:py-[50px] md: md:overflow-hidden md:h-full md:relative'>
                 <div className='h-[50%] w-[2px] absolute top-40 left-10 bg-white/30'></div>
                 {/* resume header  */}
 
                 <div className='md:flex md:justify-between'>
                     <div className='md:pl-[60px] md:w-1/2 '>
-                        <button className='md:relative md:text-white md:text-xl md:font-light font-montserrat md:px-10 md:py-[15px] md:rounded-[50px] md:border md:border-white'>
+                        <button className='md:relative md:text-white md:text-xl md:font-light font-montserrat md:px-10 md:py-[15px] md:rounded-[50px] md:border md:border-white md:items-center'>
                             Resume
                             <div className='md:absolute md:-right-[35px] md:top-2'>
                                 <svg width="45" height="46" viewBox="0 0 45 46" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -65,5 +65,5 @@ const resume = () => {
     )
 }
 
-export default resume
+export default Resume
 
