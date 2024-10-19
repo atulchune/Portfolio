@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const About = () => {
     return (
-        <div className='w-full h-screen md:relative scroll-smooth md:mt-6' id='about  md:overflow-x-hidden'>
+        <div id="about" className='w-full h-screen md:relative scroll-smooth md:mt-6 md:overflow-x-hidden'>
             <div className=' h-1/5 '>
                 <hr className='md:border md:border-[#727271] w-2/3 '></hr>
                 <div className=' md:text-[#727271] md:relative md:py-2 md:font-light md:font-montserrat md:space-x-4 md:flex md:text-nowrap md:overflow-hidden '>
