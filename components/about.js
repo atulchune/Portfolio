@@ -27,7 +27,7 @@ const About = () => {
 
                 <div className=' md:w-2/5 relative md:border-[0.5px] md:border-white'>
                     
-                    <Image src={'/ankit.jpg'} layout='fill' objectFit='cover' className='md:-translate-x-5 md:-translate-y-5 md:z-10 md:hover:translate-x-0 md:hover:translate-y-0 md:transform md:duration-500 md:hover:p-2' />
+                    <Image src={'/ankit_photo.jpg'} layout='fill' objectFit='cover' alt='image' className='md:-translate-x-5 md:-translate-y-5 md:z-10 md:hover:translate-x-0 md:hover:translate-y-0 md:transform md:duration-500 md:hover:p-2' />
                     <div className='md:absolute md:top-0 md:-left-20'>
                         <svg width="147" height="223" viewBox="0 0 147 223" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="Group">
