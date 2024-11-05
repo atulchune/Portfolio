@@ -20,6 +20,7 @@ export default function Home() {
               muted
               playsInline
               className="w-full"
+              disablePictureInPicture
             >
               <source src="/bgvedio.mp4" type="video/mp4" />
               Your browser does not support the video tag.

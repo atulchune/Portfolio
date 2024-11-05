@@ -10,7 +10,7 @@ const Footer = () => {
                     </h1>
                     <div className='md:flex md:items-center'>
                         <button className='md:border md:relative md:px-[40px] md:py-[15px] md:border-[#d9d9d9] rounded-[50px] md:bg-[#d9d9d9] md:text-black'>Let’s Collaborate
-                            <div className='md:absolute md:-right-[35px] md:top-2'>
+                            <div className='md:absolute  md:-right-[34px] md:top-2'>
                                 <svg width="45" height="46" viewBox="0 0 45 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M22.5 45.9264C34.9264 45.9264 45 35.8528 45 23.4264C45 11 34.9264 0.926392 22.5 0.926392C10.0736 0.926392 0 11 0 23.4264C0 28.7868 1.87453 33.7094 5.00384 37.5745L22.6252 20.3936H11.0655C9.68476 20.3936 8.56548 19.2743 8.56548 17.8936C8.56548 16.5129 9.68476 15.3936 11.0655 15.3936L28.7705 15.3936C30.1512 15.3936 31.2705 16.5129 31.2705 17.8936V35.1562C31.2705 36.5369 30.1512 37.6562 28.7705 37.6562C27.3898 37.6562 26.2705 36.5369 26.2705 35.1562V23.8227L8.56082 41.0897C12.3936 44.1185 17.2357 45.9264 22.5 45.9264Z" fill="#D9D9D9" />
                                 </svg>
