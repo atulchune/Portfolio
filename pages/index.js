@@ -36,7 +36,7 @@ export default function Home() {
               <p className="md:absolute md:top-[27%] md:right-[44%] md:text-center md:text-[40px] md:font-normal md:font-montserrat md:leading-[51.66px]">
                 Hi,
               </p>
-              <p className="md:absolute md:top-[28%] md:right-[12.7%] md:text-center md:text-[160px] md:font-extrabold md:font-montserrat md:leading-[206.63px] text-red-400">
+              <p className="md:absolute md:top-[28%] md:right-[12.7%] md:text-center md:text-[160px] md:font-extrabold md:font-montserrat md:leading-[206.63px] ">
                 ANKIT
               </p>
               <p className="md:absolute md:top-[55%] md:-right-[2.9%]  md:text-center md:text-[160px] md:font-extrabold font-montserrat md:leading-[51.66px]">
