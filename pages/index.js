@@ -4,6 +4,7 @@ import About from "@/components/about"
 import Resume from "@/components/resume";
 import Project from '@/components/projects';
 import Footer from "@/components/footer";
+import Link from "next/link";
 export default function Home() {
   return (
     <div className="overflow-hidden">
@@ -52,10 +53,10 @@ export default function Home() {
           </div>
 
           <div>
-            <a href="#about" className="absolute scrollDown scroll-smooth hidden md:block z-[20]">
+            <Link href="#about" className="absolute scrollDown scroll-smooth hidden md:block z-[20]">
               {" "}
               <span className=""></span> <span className=""></span> <span></span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

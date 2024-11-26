@@ -4,7 +4,7 @@ import Link from 'next/link'
 import ResumeContent from './resume-content'
 const Resume = () => {
     return (
-        <div className='md:p-[70px] md:w-full md:text-white md:font-montserrat '>
+        <div id='resume' className='md:p-[70px] md:w-full md:text-white md:font-montserrat '>
             <div className='md:bg-[#1e1f1d] md:rounded-3xl md:py-[50px] md: md:overflow-hidden md:h-full md:relative'>
                 <div className='h-[50%] w-[2px] absolute top-40 left-10 bg-white/30'></div>
                 {/* resume header  */}

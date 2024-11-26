@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import ProjectCard from './ProjectCard'
+import ProjectCard from './projectcard'
 import { useState } from 'react'
 
 const applications = [
@@ -82,7 +82,7 @@ const Project = () => {
 
     return (
         <div>
-            <div className=' md:p-[70px] md:w-full md:text-white md:font-montserrat '>
+            <div id='portfolio' className=' md:p-[70px] md:w-full md:text-white md:font-montserrat '>
                 <div className='md:flex md:justify-between md:items-baseline'>
                     <button className='md:col-span-1 md:relative md:text-white md:text-xl md:font-light font-montserrat md:px-10 md:py-[15px] md:rounded-[50px] md:border md:border-white'>
                         Portfolio
