@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-const about = () => {
+const About = () => {
     return (
-        <div className='w-full h-screen md:relative scroll-smooth md:mt-6' id='about  md:overflow-x-hidden'>
+        <div id="about" className='w-full h-screen md:relative scroll-smooth md:mt-6 md:overflow-x-hidden overflow-y-hidden'>
             <div className=' h-1/5 '>
                 <hr className='md:border md:border-[#727271] w-2/3 '></hr>
                 <div className=' md:text-[#727271] md:relative md:py-2 md:font-light md:font-montserrat md:space-x-4 md:flex md:text-nowrap md:overflow-hidden '>
@@ -27,7 +27,7 @@ const about = () => {
 
                 <div className=' md:w-2/5 relative md:border-[0.5px] md:border-white'>
                     
-                    <Image src={'/ankit.jpg'} layout='fill' objectFit='cover' className='md:-translate-x-5 md:-translate-y-5 md:z-10 md:hover:translate-x-0 md:hover:translate-y-0 md:transform md:duration-500 md:hover:p-2' />
+                    <Image src={'/photo.png'} layout='fill' objectFit='cover' alt='photo' className='md:-translate-x-5 md:-translate-y-5 md:z-10 md:hover:translate-x-0 md:hover:translate-y-0 md:transform md:duration-500 md:hover:p-2' />
                     <div className='md:absolute md:top-0 md:-left-20'>
                         <svg width="147" height="223" viewBox="0 0 147 223" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="Group">
@@ -85,4 +85,4 @@ const about = () => {
     )
 }
 
-export default about
+export default About
